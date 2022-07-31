@@ -138,3 +138,33 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/abdulsheik/devopsTechdocs.git
    de1041c..452f2e3  main -> main
 branch 'main' set up to track 'origin/main'.
+
+
+
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+sakha@LAPTOP-VQ4CVDT6 MINGW64 /d/Git/devopsTechdocs (main)
+$ ll
+total 5
+-rw-r--r-- 1 sakha 197609 1562 Jul 31 20:10 Git_commands.txt
+-rw-r--r-- 1 sakha 197609   17 Jul 31 20:10 README.md
+
+sakha@LAPTOP-VQ4CVDT6 MINGW64 /d/Git/devopsTechdocs (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.92 KiB | 151.00 KiB/s, done.
+From https://github.com/abdulsheik/devopsTechdocs
+ * branch            main       -> FETCH_HEAD
+   452f2e3..22a633f  main       -> origin/main
+Updating 452f2e3..22a633f
+Fast-forward
+ Git_commands.txt | 97 +++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 96 insertions(+), 1 deletion(-)
