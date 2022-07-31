@@ -168,3 +168,8 @@ Updating 452f2e3..22a633f
 Fast-forward
  Git_commands.txt | 97 +++++++++++++++++++++++++++++++++++++++++++++++++++++++-
  1 file changed, 96 insertions(+), 1 deletion(-)
+
+
+
+
+git push origin -d firstbranch
