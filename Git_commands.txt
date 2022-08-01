@@ -1,3 +1,5 @@
+https://linuxize.com/post/how-to-create-and-list-git-branches/#:~:text=How%20to%20Create%20and%20List%20Local%20and%20Remote,and%20create%20local%20and%20remote%20Git%20branches.%20
+
 git clone https://github.com/CiscoDevNet/python_code_samples_network.git
 git status
 git add filename
@@ -173,3 +175,13 @@ Fast-forward
 
 
 git push origin -d firstbranch
+
+
+$ git branch -d remove
+error: The branch 'remove' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D remove'.
+
+sakha@LAPTOP-VQ4CVDT6 MINGW64 /d/Git/devopsTechdocs (main)
+$ git branch -D remove
+Deleted branch remove (was 9ce65db).
+
