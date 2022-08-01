@@ -39,7 +39,7 @@ git branch -M main
 git push -u origin main
 
 echo "# devopsTechdocs" >> README.md
-git init
+git init 
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -185,3 +185,13 @@ sakha@LAPTOP-VQ4CVDT6 MINGW64 /d/Git/devopsTechdocs (main)
 $ git branch -D remove
 Deleted branch remove (was 9ce65db).
 
+$ git branch -a
+  github
+* main
+  remotes/origin/github
+  remotes/origin/main
+
+sakha@LAPTOP-VQ4CVDT6 MINGW64 /d/Git/devopsTechdocs (main)
+$ git branch -r
+  origin/github
+  origin/main
